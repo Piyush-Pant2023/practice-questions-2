@@ -1,0 +1,8 @@
+d={"name":"manas","class":"5th","college":"sit","gender":"male","name":"harsh"}
+print(d)
+v=input("Enter the value you want to check: ")
+for i in d:
+    if v==d[i]:
+        print(i)
+    else:
+        print("Element not found")
